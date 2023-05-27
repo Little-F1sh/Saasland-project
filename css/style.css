@@ -7,10 +7,6 @@ img {
     max-width: 100%;
 }
 
-section {
-    overflow: hidden;
-}
-
 header {
     background-color: #7F56F5;
     padding: 30px 0 70px 0px;

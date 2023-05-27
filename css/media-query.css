@@ -1,7 +1,13 @@
 @media only screen and  (max-width: 600px) {
+  .container {
+    width: 600px;
+  }
   .wrapper {
     width: 480px;
     margin: auto;
+  }
+  section {
+    width: 600px;
   }
   .logo {
     float: none;
@@ -60,6 +66,83 @@
   .col ul li a {
     padding: 10px 0;
     font-size: 16px;
+    font-weight: 400;
+  }
+}
+@media only screen and (max-width: 768px) and (min-width: 601px) {
+  .container {
+    width: 768px;
+  
+  }
+
+  .wrapper {
+    width: 720px;
+    margin: auto;
+  }
+
+  section {
+    width: 768px;
+  }
+  .logo {
+    float: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .logo img {
+    width: 100%;
+    height: 40px;
+  }
+  nav {
+    margin: 0;
+    padding: 0;
+  }
+  nav ul {
+    margin: 0 0 0 0;
+    padding: 0;
+  }
+  nav ul li {
+    padding: 10px;
+  }
+  nav ul li a {
+    font-size: 20px;
+  }
+  .banner {
+    padding: 50px 0 50px 0;
+  }
+
+  .banner h1 {
+    font-size: 50px;
+  }
+
+  .banner p {
+    font-size: 20px;
+  }
+  .about-section {
+    padding: 0;
+  }
+  .column {
+    text-align: center;
+    padding: 10px 0;
+  }
+  .footer-sction {
+    padding: 10px 0;
+  }
+
+  .col {
+    padding: 0 5px;
+  }
+
+  .col p {
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 0 0px 0 0;
+    text-align: center;
+  }
+
+  .col ul li a {
+    padding: 10px 0;
+    font-size: 20px;
     font-weight: 400;
   }
 }
